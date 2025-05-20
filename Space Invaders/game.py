@@ -1,10 +1,3 @@
-"""Python Mini Project-2 :
-Group Members : 
-30 : Roshan Jadhav
-42 : Pranav Landge
-50 : Het Parekh
-51 : Hrutuja Jadhav"""
-
 # Importing required libraries
 import math      # For calculating distance between bullet and enemy
 import random    # For generating random positions for enemies
@@ -25,7 +18,7 @@ mixer.music.load("background.wav")
 mixer.music.play(-1)
 
 # Set window title and icon
-pygame.display.set_caption("Space Invader")
+pygame.display.set_caption("Space Invaders")
 icon = pygame.image.load('ufo.png')
 pygame.display.set_icon(icon)
 
